@@ -1,6 +1,8 @@
-# **Finding Your Dream Home: House Recommendations for REX Real Estate**
+# Finding Your Dream Home:
 
-[*Harvard’s Data Science Capstone*](https://www.capstone.iacs.seas.harvard.edu/) *in partnership with* [*REX Real Estate*](https://www.rexhomes.com/)
+## House Recommendations for REX Real Estate
+
+[*Harvard Data Science Capstone Fall 2020*](https://www.capstone.iacs.seas.harvard.edu/) *in partnership with* [*REX Real Estate*](https://www.rexhomes.com/)
 
 
 
