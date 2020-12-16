@@ -75,6 +75,17 @@ def train_test_split(anchor, positive, negative, y_train, train_pct=0.9):
 
     return anchor_train, pos_train, neg_train, y_training, anchor_test, pos_test, neg_test, y_test
 
+
+def prepare_contrastive_pair(anchor, pos, neg):
+    ## form pairs for contrastive loss model 
+    pair_input1 = np.concatenate((anchor,anchor))
+    pair_input2 = np.concatenate((pos, neg))
+
+    class0=np.zeros((anchor.shape[0],1))
+    class1=np.ones((anchor.shape[0],1))
+    output = np.concatenate((class1, class0))
+    return pair_input1, pair_input2, output
+
 #############
 ### Model ###
 #############
@@ -291,4 +302,3 @@ def precision_recall_at_k(all_pairs_predictions, user_listing_test, k_in):
 
 
     return recommended_at_k, recall_results, precision_results
-
