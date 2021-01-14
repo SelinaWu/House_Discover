@@ -9,5 +9,11 @@ Check out [our full report on Medium](https://rexhousehunters.medium.com/finding
 
 > **All the code for final model(s) can be found in `Milestones/final/`.**
 
+#### User Study Demo
+<i>If you are interested, fill out our survey [HERE](https://zwu2.typeform.com/to/RTLHErF9) before reading the following section<i>
+<p align="center">
+<img src="https://github.com/SelinaWu/House_Discover/blob/master/demo1.png" width="48%" height="48%" />
+</p> 
+
 #### Team members:
 [Weiru Chen ](https://github.com/weiru-chen-15801)| [Nikhil Vanderklaauw](https://github.com/nikhilvdk) | [Selina Wu](https://github.com/SelinaWu) | [Cecilia Yang](https://github.com/cecilia-yang)
